@@ -10,3 +10,5 @@ Syntax:
 ``` HTML 
 <img src="path/to/script_file.php?image=../path/to/svg/image/image.svg&collor_key=994455" />
 ```
+
+Please note that `collor_key` must be an hexadecimal collor.
