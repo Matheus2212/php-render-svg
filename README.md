@@ -7,6 +7,6 @@ It doesn't needs any dependency (is just a single ready-to-use file).
 
 Syntax: 
 
-´´´ HTML 
+``` HTML 
 <img src="path/to/script_file.php?image=../path/to/svg/image/image.svg&collor_key=994455" />
-´´´
+```
