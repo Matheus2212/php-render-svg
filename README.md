@@ -1,14 +1,19 @@
 # PHP_GeraSVG
-PHP script that renders svg images with hexadecimal colors using $_GET syntax.
+É um Script PHP que utiliza a sintaxe `$_GET` para gerar a imagem SVG dentro de uma tag `<img />`. Ela aplica a cor informado no `fill:#{cor}` do arquivo SVG.
 
-It just applies a {collor_key} with a $_GET['collor_key'].
+Ela não tem nenhuma dependência, e é bem simples na aplicação. Feita para reutilizar a mesma imagem, porém com cores diferentes, e utilizando a tag `<img />`.
 
-It doesn't needs any dependency (is just a single ready-to-use file).
-
-Syntax: 
+Sintaxe: 
 
 ``` HTML 
 <img src="path/to/script_file.php?image=../path/to/svg/image/image.svg&collor_key=994455" />
 ```
 
-Please note that `collor_key` must be an hexadecimal collor.
+Aí, no arquivo SVG, deve ter: 
+```HTML 
+<path style="fill:#{collor_key}" > 
+  ...
+</path>
+```
+
+Super simples, e fácil de usar.
