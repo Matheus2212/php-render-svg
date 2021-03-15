@@ -6,7 +6,7 @@ Ela não tem nenhuma dependência, e é bem simples na aplicação. Feita para r
 Sintaxe: 
 
 ``` HTML 
-<img src="path/to/script_file.php?image=../path/to/svg/image/image.svg&collor_key=994455" />
+<img src="path/to/geraSvg.php?image=../path/to/svg/image/image.svg&collor_key=994455" />
 ```
 
 Aí, no arquivo SVG, deve ter: 
