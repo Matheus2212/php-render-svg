@@ -1,5 +1,6 @@
-# PHP_GeraSVG
+# PHP Gera SVG
 É um Script PHP que utiliza a sintaxe `$_GET` para gerar a imagem SVG dentro de uma tag `<img />`. Ela aplica a cor informado no `fill:#{cor}` do arquivo SVG.
+Muito útil para utilizar o mesmo svg dentro de uma `<img />` com cores diferentes, e sem precisar adicionar CSS para cores.
 
 Ela não tem nenhuma dependência, e é bem simples na aplicação. Feita para reutilizar a mesma imagem, porém com cores diferentes, e utilizando a tag `<img />`.
 
