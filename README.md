@@ -17,4 +17,4 @@ Aí, no arquivo SVG, deve ter:
 </path>
 ```
 
-Super simples, e fácil de usar.
+Super simples e fácil de usar.
